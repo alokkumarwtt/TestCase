@@ -1,0 +1,25 @@
+{
+  "name": "nodeprograms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+   "scripts": {
+    "test": "mocha server/**/*.test.js"
+   
+  },
+  "author": "Alok kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.6",
+    "mongoose": "^5.0.14",
+    "validator": "^9.4.1",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "mocha": "^5.0.5",
+    "supertest": "^3.0.0"
+  }
+}
